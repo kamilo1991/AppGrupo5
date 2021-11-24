@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">App Mision TIC</string>
+    <string name="txt_usuario">Digite su Usuario</string>
+    <string name="txt_password">Digite su Contraseña</string>
+    <string name="btn_iniciar">Iniciar Sesion</string>
+    <string name="btn_registrar">Registrate Aqui</string>
+    <string name="tv_login">Inicio de Sesion</string>
+    <string name="tv_registro">Registro de Usuario</string>
+    <string name="txt_num_documento">Digite su Numero de Identificacion</string>
+    <string name="txt_nombre">Digite su Nombre(s)</string>
+    <string name="txt_apellido">Digite su Apellido(s)</string>
+    <string name="txt_telefono">Digite su Numero de Telefono</string>
+    <string name="txt_correo">Digite su Correo Electronico</string>
+    <string name="btn_registrarse">Guardar Registro</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
