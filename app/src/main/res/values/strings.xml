@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">App Mision TIC</string>
+    <string name="app_name">App Plantarte</string>
     <string name="txt_usuario">Digite su Usuario</string>
     <string name="txt_password">Digite su Contraseña</string>
     <string name="btn_iniciar">Iniciar Sesion</string>

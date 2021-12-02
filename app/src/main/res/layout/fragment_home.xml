@@ -8,15 +8,64 @@
 
     <TextView
         android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="314dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
         android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textdeseas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="¿Que deseas hacer?"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_voluntario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/btn_voluntario"
+        android:layout_width="264dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="48dp"
+        android:background="#009688"
+        android:text="Hazte Voluntario"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_empresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_empresa"
+        android:layout_width="253dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="48dp"
+        android:background="#009688"
+        android:text="Soy una Empresa"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_donar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_donar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
+        android:background="#009688"
+        android:text="Donar"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
